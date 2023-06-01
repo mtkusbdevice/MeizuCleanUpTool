@@ -15,6 +15,9 @@ ISADB=/sbin/adb
 if [ -f "$ISADB" ]; then 
     echo -e "$COK - Package 'android-tools' is installed, moving on."
     sleep 1
+    echo -e "$CAT - Killing the adb server..."
+    adb kill-server
+    sleep 1
     echo -e "$CNT - You are about to execute a script that would attempt to clean preinstalled bloatware on Meizu phones."
     sleep 1
     echo -e "$CNT - This script will not run commands that require sudo, so do not run it as sudo."
