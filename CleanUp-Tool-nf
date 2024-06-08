@@ -58,7 +58,7 @@ fi
 
 sleep 1
 echo -e "$COK - Device is connected."
-read -rep $'[\e[1;33m \e[0m] - Start uninstalling? (Y,n) ' CONTUNINST
+read -rep $'\e[1;33m \e[0m - Start uninstalling? (Y,n) ' CONTUNINST
 if [[ $CONTUNINST == "Y" || $CONTUNINST == "y" ]]; then
     echo -e "$COK - Starting...\n"
 else
@@ -130,7 +130,7 @@ adb shell pm uninstall --user 0 com.emoji.keyboard.touchpal
 sleep 2
 echo -e "$CWR And..."
 sleep 1
-read -rep $'[\e[1;33m \e[0m] Uninstall Google Play Store and even Google? (Y/N) ' CONTINST
+read -rep $'\e[1;33m \e[0m Uninstall Google Play Store and even Google? (Y/N) ' CONTINST
 if [[ $CONTINST == "Y" || $CONTINST == "y" ]]; then
     echo -e "$CAT Sure, but you have been warned"
     sleep 1
