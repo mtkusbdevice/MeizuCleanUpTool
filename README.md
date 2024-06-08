@@ -15,10 +15,14 @@ cd PhoneCleanUpTool
 
 3. Make the script executable:
 ```
-chmod +x CleanUp-Tool
+chmod +x CleanUp-Tool && chmod +x CleanUp-Tool-nf
 ```
 
 4. Run the script (does not requires sudo):
 ```
 ./CleanUp-Tool
+```
+or
+```
+./CleanUp-Tool-nf
 ```
