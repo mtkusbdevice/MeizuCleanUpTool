@@ -1,11 +1,11 @@
 # MeizuCleanUpTool
-The script that will try to clear the preinstalled bloatware on Meizu (and some other companies) phones.
+The script that will try to clear the preinstalled bloatware on Meizu (and some other OEMs) phones.
 
 
 # How to use
 1. Copy the repo:
 ```
-git clone https://github.com/vidowner/MeizuCleanUpTool.git
+git clone https://github.com/mtkusbdevice/MeizuCleanUpTool
 ```
 
 2. Go to the repo's directory:
