@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # This is the Meizu CleanUp Tool by:
-# https://t.me/vidowner
-# https://github.com/vidowner
+# https://t.me/mtkusbdevice
+# https://github.com/mtkusbdevice
 
 CNT="[\e[1;36mNOTE\e[0m]"
 COK="[\e[1;32mOK\e[0m]"
